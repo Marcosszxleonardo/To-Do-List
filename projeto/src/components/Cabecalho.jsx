@@ -8,7 +8,7 @@ export function Cabecalho() {
 
       <h2 className={styles.titulo}>TO-DO LIST</h2>
       <p className={styles.descricao}>
-        Mantenha-se organizado e conclua suas tarefas.
+       <strong>Mantenha-se organizado e conclua suas tarefas.</strong> 
       </p>
     </div>
   );

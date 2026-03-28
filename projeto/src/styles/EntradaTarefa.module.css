@@ -14,7 +14,7 @@
 .botao {
   padding: 10px;
   border: none;
-  background: black;
+  background: rgb(2, 4, 128);
   color: white;
   border-radius: 6px;
   cursor: pointer;

@@ -40,7 +40,7 @@ export function App() {
     padding: "20px",
     borderRadius: "10px",
     border: "2px solid black",
-   boxShadow: "0 0 10px #0056b3, 0 0 30px #0056b3"
+   boxShadow: "0 0 10px #ffffff, 0 0 30px #f8f8f8"
       }}
     >
       <Cabecalho />
