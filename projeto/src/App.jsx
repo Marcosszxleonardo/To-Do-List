@@ -34,14 +34,17 @@ export function App() {
 
   return (
     <div
-      style={{
-           width: "400px",
-    background: "white",
-    padding: "20px",
-    borderRadius: "10px",
-    border: "2px solid black",
-   boxShadow: "0 0 10px #ffffff, 0 0 30px #f8f8f8"
-      }}
+     style={{
+  width: "100%", 
+  maxWidth: "450px", 
+  background: "white",
+  padding: "20px",
+  borderRadius: "15px",
+  border: "2px solid black",
+  boxShadow: "0 0 10px #ffffff, 0 0 30px #f8f8f8",
+  boxSizing: "border-box", 
+  margin: "0 auto" 
+}}
     >
       <Cabecalho />
 

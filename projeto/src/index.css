@@ -1,17 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  
+  height: 100%;
+  width: 100%;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 20px;
+
   background-image: 
     linear-gradient(to bottom right, rgb(0, 0, 0), rgba(7, 61, 105, 0.89)), 
-    url('./assets/imagem\ fundo.png'); 
-  background-size: cover;
-  background-position: center;
+    url('./assets/imagem fundo.png'); 
+  
+  background-size: cover;     
+  background-position: center; 
   background-repeat: no-repeat;
- 
+  background-attachment: fixed; 
+  padding-left: 50px;
+  
 }

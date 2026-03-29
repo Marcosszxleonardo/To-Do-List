@@ -1,21 +1,48 @@
 .container {
   display: flex;
+  flex-direction: column; /* Empilha no celular para não esmagar os botões */
   gap: 10px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .input {
-  flex: 1;
-  padding: 10px;
+  width: 100%;
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  font-size: 16px; /* Evita zoom automático chato no iPhone */
+  box-sizing: border-box;
 }
 
 .botao {
-  padding: 10px;
+  width: 100%; /* Botão largo no mobile, mais fácil de clicar */
+  padding: 12px;
   border: none;
   background: rgb(2, 4, 128);
   color: white;
   border-radius: 6px;
   cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.botao:active {
+  opacity: 0.8;
+}
+
+/* --- QUANDO A TELA FOR MAIOR (TABLET/PC) --- */
+@media (min-width: 500px) {
+  .container {
+    flex-direction: row; /* Volta a ficar lado a lado */
+  }
+
+  .input {
+    flex: 1; /* O input cresce para ocupar o espaço */
+  }
+
+  .botao {
+    width: auto; /* O botão volta ao tamanho normal do texto */
+    padding: 10px 20px;
+  }
 }
