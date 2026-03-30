@@ -17,12 +17,12 @@ Contar tarefas concluídas
 O layout é responsivo e pensado para desktop e mobile, usando componentes reutilizáveis e código organizado.
 
 # 🛠️Tecnologias Utilizadas
-React 19.2.0
-JavaScript (ES5.1)
-HTML5 & CSS3
-Vite v8.0.2
-Git & GitHub
-Vercel (Hospedagem)
+React 19.2.0 ,
+JavaScript (ES5.1) .
+HTML5 & CSS3 ,
+Vite v8.0.2 ,
+Git & GitHub ,
+Vercel (Hospedagem).
 # 0. ▶️ Como Executar
 
 Siga o passo a passo para rodar o projeto localmente:
