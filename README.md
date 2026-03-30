@@ -16,7 +16,7 @@ Contar tarefas concluídas
 
 O layout é responsivo e pensado para desktop e mobile, usando componentes reutilizáveis e código organizado.
 
-#🛠️ Tecnologias Utilizadas
+# 🛠️Tecnologias Utilizadas
 React 19.2.0
 JavaScript (ES5.1)
 HTML5 & CSS3
