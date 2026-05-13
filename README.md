@@ -38,3 +38,6 @@ npm install
 
 # 4. Inicialize o projeto
 npm run dev
+
+# 📝 VEJA O PROJETO:
+https://dw44projeto.vercel.app/
